@@ -1,0 +1,1 @@
+Github Actionsが便利だった件。サーバーレスというとAWS Lambdaを使っていたけど、今後変えていくと思う。Lambdaって少し使わないとすぐ使い方を忘れてしまう。。Github Actionsはブラウザで編集もcommitもできて、UIも分かりやすいから便利だ。
