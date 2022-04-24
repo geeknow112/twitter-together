@@ -1,4 +1,4 @@
-name: Action Sample
+name: Action Schedule
 
 on:
   schedule:
