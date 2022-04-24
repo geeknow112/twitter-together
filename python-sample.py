@@ -12,6 +12,12 @@ f.close()
 import datetime
 dt_now = datetime.datetime.now()
 print(dt_now)
+
+dt_now_jst_aware = datetime.datetime.now(
+    datetime.timezone(datetime.timedelta(hours=9))
+)
+print(dt_now_jst_aware)
+print(dt_now_jst_aware.tzinfo)
 exit()
 
 
