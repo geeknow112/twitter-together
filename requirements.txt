@@ -1,1 +1,4 @@
 numpy >= 1.2
+tweepy
+time
+glob
