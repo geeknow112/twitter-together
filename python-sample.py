@@ -9,6 +9,11 @@ data = f.read()
 print(data)
 f.close()
 
+import datetime
+dt_now = datetime.datetime.now()
+print(dt_now)
+exit()
+
 
 # ツイートを取得
 import tweepy
