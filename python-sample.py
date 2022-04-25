@@ -4,11 +4,6 @@ a = np.array([1, 2])
 b = np.array([3, 4])
 print(a + b)
 
-f = open('./tweets/baby-step.tweet', 'r', encoding='UTF-8')
-data = f.read()
-print(data)
-f.close()
-
 import datetime
 dt_now = datetime.datetime.now()
 print(dt_now)
@@ -19,6 +14,13 @@ dt_now_jst_aware = datetime.datetime.now(
 print(dt_now_jst_aware)
 print(dt_now_jst_aware.tzinfo)
 print(dt_now_jst_aware.strftime("%Y%m%d%H%M"))
+
+dt = '202204252315'
+f = open('./tweets/schedule-tweet-' + dt + '.tw', 'r', encoding='UTF-8')
+data = f.read()
+print(data)
+f.close()
+
 exit()
 
 
