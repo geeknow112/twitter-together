@@ -23,7 +23,7 @@ data = f.read()
 print(data)
 f.close()
 
-exit()
+#exit()
 
 
 # ツイートを取得
