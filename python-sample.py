@@ -15,7 +15,8 @@ print(dt_now_jst_aware)
 print(dt_now_jst_aware.tzinfo)
 print(dt_now_jst_aware.strftime("%Y%m%d%H%M"))
 
-dt = "202204252315"
+dt = dt_now_jst_aware.strftime("%Y%m%d%H%M")
+# dt = "202204252315"
 file = './tweets/schedule-tweet-' + dt + '.tw'
 f = open(file, 'r', encoding='UTF-8')
 data = f.read()
