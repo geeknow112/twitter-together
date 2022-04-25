@@ -18,6 +18,7 @@ dt_now_jst_aware = datetime.datetime.now(
 )
 print(dt_now_jst_aware)
 print(dt_now_jst_aware.tzinfo)
+print(dt_now_jst_aware.strtotime("Ymdhi"))
 exit()
 
 
