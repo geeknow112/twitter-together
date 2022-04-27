@@ -20,7 +20,9 @@ dt = dt_now_jst_aware.strftime("%Y%m%d%H")
 # dt = "2022042523"
 file = './tweets/' + dt + '.tw'
 
-if os.path.exists(file) not True:
+isExists = os.path.exists(file) 
+print(isExists)
+if isExists != True:
 	exit()
 
 f = open(file, 'r', encoding='UTF-8')
