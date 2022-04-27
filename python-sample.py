@@ -1,3 +1,4 @@
+import os
 import numpy as np
 
 a = np.array([1, 2])
@@ -18,6 +19,10 @@ print(dt_now_jst_aware.strftime("%Y%m%d%H%M"))
 dt = dt_now_jst_aware.strftime("%Y%m%d%H")
 # dt = "2022042523"
 file = './tweets/' + dt + '.tw'
+
+if !os.path.exists(file):
+	exit()	
+
 f = open(file, 'r', encoding='UTF-8')
 data = f.read()
 print(data)
