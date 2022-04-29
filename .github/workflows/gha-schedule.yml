@@ -2,7 +2,7 @@ name: Action Schedule
 
 on:
   schedule:
-    - cron: '25 * * * *'
+    - cron: '0,20,40 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -21,4 +21,3 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run Python
         run: python python-sample.py
-
