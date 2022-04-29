@@ -1,0 +1,1 @@
+push-to-hatenablog使いたかったけど、docker-composeするときにエラーになる。。dockerが常に立ち上がってるとcomposeするときに使えなくてダメみたいだ。。pullしたリポジトリをdockerのパスに合わせよ、といわれる。。少し面倒になってきた
