@@ -1,0 +1,1 @@
+docker-composeでwordpressを自動起動後、自作のプログラムでCI/CDする方法を考えてみた。今までデプロイを「docker exec -it *** bash」でloginして手動でやっていたけど、デプロイに頭使って記事に集中できなかった。固ツイにまとめます。
