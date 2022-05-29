@@ -1,0 +1,1 @@
+放置気味のAWS FSxにアクセスしようとしたところ、ホスト名でアクセスできず、IPアドレスでのアクセスは可能だった。DNSのエイリアスが設定できるようになっている模様。https://dev.classmethod.jp/articles/fsx_support_aliasname_access/
