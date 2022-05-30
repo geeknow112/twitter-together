@@ -1,0 +1,2 @@
+SSL証明書を更新する年1作業をどこの部署がやるかで大揉めする企業もある。AWSコンソールにログインしてACMにコードを3個インポートするのみの作業だが、譲れないものがそこにはある！
+https://aws.amazon.com/jp/certificate-manager/
