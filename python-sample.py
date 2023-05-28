@@ -43,10 +43,10 @@ import time
 import glob
 
 # 取得した各種キーを格納---------------------------------------------
-consumer_key ="W9k2WydAO1aGSqHBCNlQTA8ek"
-consumer_secret ="8MwzXGsgbmFvtpjV3L1Z3BA9mU2gFTk4npTVschxALmKcidBqF"
-access_token="3009736928-7F9vIRyZFKKSHXALc8K7RpLGfLm2Psm5L97fjnp"
-access_token_secret ="DpRvhUylpIFWZrRLyG8Bw4IByRLjZ4x5BS3zO4O3iXKpg"
+consumer_key ="j1jnmxi0dVK8WxsiVksWrValm"
+consumer_secret ="MATCPIUyxXtrQQviDHfMVEzQxGYqU3LGiZ1GXWWjRYWKvDrS19"
+access_token="3009736928-GlNRGtJXSQ3kPlhBUnGjkfLTdwhTcpY4yIbQKGC"
+access_token_secret ="qxgUKAMcaqQ4F0bYtfuNSmDkN4vdaKfde2dNtoUpqWFhl"
 
 # Twitterオブジェクトの生成
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
