@@ -18,7 +18,10 @@ print(dt_now_jst_aware.strftime("%Y%m%d%H%M"))
 
 dt = dt_now_jst_aware.strftime("%Y%m%d%H")
 # dt = "2022042523"
-file = './tweets/' + dt + '.tw'
+file = './tweets/' + dt + '_*.tw'
+plist = glob.glob(files)
+file = plist[0]
+
 
 isExists = os.path.exists(file) 
 print(isExists)
