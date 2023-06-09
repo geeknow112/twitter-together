@@ -19,8 +19,11 @@ print(dt_now_jst_aware.strftime("%Y%m%d%H%M"))
 
 dt = dt_now_jst_aware.strftime("%Y%m%d%H")
 # dt = "2022042523"
+print("dt : " + dt)
 files = './tweets/' + dt + '_*.tw'
 plist = glob.glob(files)
+if len(plist) < 1:
+	exit()
 file = plist[0]
 
 
