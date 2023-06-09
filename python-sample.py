@@ -23,6 +23,7 @@ print("dt : " + dt)
 files = './tweets/' + dt + '_*.tw'
 plist = glob.glob(files)
 if len(plist) < 1:
+    print("exit: list 0.")
 	exit()
 file = plist[0]
 
